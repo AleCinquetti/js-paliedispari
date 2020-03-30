@@ -31,10 +31,10 @@ function oddOrEven(firstNumber, secondNumber) {
   return result;
 }
 // variabile appoggio che contiene risultato funzione (se pari o dispari)
-var oddOrEven = oddOrEven(firstNumber, secondNumber);
+var gameResult = oddOrEven(firstNumber, secondNumber);
 
 // condizionale per output
-if (userChoice == oddOrEven) {
+if (userChoice == gameResult) {
   userChoice = alert("Complimenti, hai vinto!");
 } else {
   userchoice = alert("Peccato, non hai vinto");
